@@ -1,6 +1,6 @@
 # Africa Impatiens
 
-We trained an iamge recognition model specified in blossom at Daan Forest Park in Taiwan. There are a large bunch of plants that are too various to be involved in the consideration. As a result, instead, we are going to handle well about 85 of species being the majority. After deploying by the following snippet on Usage section, you just need to use inference API to interact with our model and will get optimal result quickly.
+We trained an iamge recognition model specified in blossom at Daan Forest Park in Taiwan. There are a large bunch of plants that are too various to be involved in the consideration. As a result, instead, we are going to handle well about 85 of species being the majority. After deploying by the following snippet on Usage section, you just need to use inference API to interact with our model and receive top-5 candidates afterward.
 
 # Prerequisites
 - Python 3.8.3
