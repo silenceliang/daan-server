@@ -1,5 +1,7 @@
 # Africa Impatiens
 
+We trained an iamge recognition model specified in blossom at Daan Forest Park in Taiwan. There are a large bunch of plants that are too various to involve in our pretrained model. As a result, we are going to handle well about 85 of species. After deploying by the following snippet on Usage section, you just need to use inference API to interact with our model and will get optimal result quickly.
+
 # Prerequisites
 - Python 3.8.3
 
@@ -16,16 +18,17 @@ sh run.sh
 
 ## API
 
-### health Check
+### Health Check
 
 ```bash
 curl http://localhost:8080/ping
 ```
-### inference
+### Inference
 
 ```bash
 curl http://127.0.0.1:8080/predictions/daan -T ./serve/examples/image_classifier/kitten.jpg
 ```
+> the argument `-T` mentioned that it is ready to convert an image into standard input.
 
 ## Customized Configuration
 ### Handler
