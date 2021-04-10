@@ -41,7 +41,7 @@ curl http://localhost:8080/predictions/daan -T data/flower.jpeg
 ## Customized Configuration
 
 ### index_to_name.json
-While running by Inference API, you'd receive top-5 candidates close to your input image with respect to the category of bloom. According to results where json format answered-pair indicates a class followed by probability, keys among them can be referred to epcific classes of bloom that corresponding table was described in `index_to_name.json`.
+While running by Inference API, you'd receive top-5 candidates close to your input image with respect to the category of bloom. According to results where json format answered-pair indicates a class followed by its probability, keys among them can be referred to specific classes of bloom that corresponding table was described in `index_to_name.json`.
 
 ### data directory
 Shared directory where you need to put data in so that your awesome image could be observed.
